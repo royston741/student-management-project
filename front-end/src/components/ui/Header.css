@@ -1,0 +1,28 @@
+nav .menu {
+  margin: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .menu li {
+  margin: 0 27px;
+  padding: 16px 15px;
+}
+
+.active {
+  border-bottom: 3.5px solid #3b71ca;
+  background-color: rgba(231, 219, 219, 0.192);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+header {
+  background-color: var(--bg-color);
+}

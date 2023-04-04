@@ -1,0 +1,49 @@
+.form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:var(--bg-color) ;
+}
+
+.form_width{
+    min-width: 400px;
+}
+
+
+.navigate_form{
+    border: none;
+    background-color: transparent;
+    color: blue;
+}
+
+.err_class{
+    font-size: 14px;
+    padding-left:7px ;
+}
+
+.form_header{
+    font-weight: bold;
+}
+
+.err_msg{
+    border-radius: 4px;
+    font-weight: 500;
+    color: rgb(122, 35, 35);
+    background-color: rgba(255, 0, 0, 0.185);
+    padding: 10px;
+}
+
+.success_msg{
+    border-radius: 4px;
+    font-weight: 500;
+    color: darkgreen;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+@media screen and (max-width:400px) {
+    .form_width{
+        min-width: 300px;
+    }   
+}

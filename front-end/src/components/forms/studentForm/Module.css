@@ -1,0 +1,27 @@
+.modules {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.module {
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100px;
+  background-color: #e3ebf7;
+  font-weight: 500;
+}
+
+.module span {
+  color: #285192;
+}
+
+.module button {
+  background-color: transparent;
+  color: #285192;
+  border: none;
+}
